@@ -289,8 +289,6 @@ function submitWorkout() {
     document.getElementById('repsInput').value = '';
     document.getElementById('weightInput').value = '';
     document.getElementById('previousBest').style.display = 'none';
-    
-    alert('Workout logged successfully! 💪');
 }
 
 function showProgressiveIndicator() {
