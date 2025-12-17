@@ -652,7 +652,6 @@ function clearAllData() {
         appState.workouts = [];
         saveData();
         closeModal('confirmModal');
-        alert('All data cleared!');
         updateHomeScreen();
     };
 }
